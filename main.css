@@ -1,0 +1,89 @@
+*{
+   margin: 0px;
+   padding: 0px;
+}
+h1{
+	font: bold 40px Century Gothic;
+	text-shadow:rgb(110,110,110) 3px 3px 3px;
+}
+h3{
+	font: bold 30px Tahoma;
+	float: right;
+	color: blue;
+	text-shadow:rgb(110,110,110) 5px 5px 5px;
+}
+ header, section, footer, aside, nav,{
+ 	display: block;
+ }
+ body{
+ 	  width: 100%;
+      display: -webkit-box;
+      -webkit-box-pack: center;
+
+ }
+ #big_wrapper{
+ 	max-width:1200px;
+ 	display: -webkit-box;
+ 	-webkit-box-orient: vertical;
+ 	-webkit-box-flex: 1;
+ 	margin: 20px 0px;
+ 	border-bottom: 3px solid green;
+ }  
+ #top_header{
+ 	background: -webkit-linear-gradient(top,yellow,white);
+    box-shadow: rgb(110,110,110) 10px 10px 10px;
+ 	border-radius:15px;
+    margin-bottom: 10px;
+ 	color:black;
+ 	border: 3px;
+    padding: 20px;
+ }
+
+/* menu css ------------------------------------- */
+#menu {
+    background : #333;
+    height : 50px; 
+    margin-top: 5px;
+    width : 1200px;
+    border:1px solid black;
+    border-radius:5px ;
+}
+
+#menu ul{
+    float : left;
+}
+#menu ul li{
+    display : inline;
+    list-style : none;
+    padding: 0px 10px;
+    
+}
+#menu a{
+    color : white ;
+    text-shadow:rgb(110,110,110) 5px 5px 5px;
+    font-size: 30px;
+    padding : 5px;
+    text-decoration : none;
+}
+#menu a:hover{
+    color : lightcoral;
+}
+#form {margin-left : 800px; font-size: 35px;}
+ #main_section{
+ 	border: 1px solid blue;
+ 	border-radius: 5px;
+    width: 1200px;
+ 	height: 500px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+ 	-webkit-box-flex: 1;
+ 	padding: 0px;
+ }
+
+ #the_footer{
+ 	text-align: center;
+ 	padding:20px;
+ 	border-top: 2px solid green;
+ 	background: -webkit-radial-gradient(center,ellipse,green 0%, white 50%);
+
+ }
